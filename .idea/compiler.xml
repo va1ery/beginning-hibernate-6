@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="activej" />
+        <module name="chapter09" />
+        <module name="chapter07" />
+        <module name="chapter08" />
+        <module name="chapter05" />
+        <module name="chapter06" />
+        <module name="springboot" />
+        <module name="chapter03" />
+        <module name="chapter04" />
+        <module name="spring" />
+        <module name="chapter01" />
+        <module name="chapter02" />
+        <module name="chapter13" />
+        <module name="chapter10" />
+        <module name="chapter11" />
+        <module name="util" />
+        <module name="ch12common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activej" target="11" />
+      <module name="ch12common" target="11" />
+      <module name="chapter01" target="11" />
+      <module name="chapter02" target="11" />
+      <module name="chapter03" target="11" />
+      <module name="chapter04" target="11" />
+      <module name="chapter05" target="11" />
+      <module name="chapter06" target="11" />
+      <module name="chapter07" target="11" />
+      <module name="chapter08" target="11" />
+      <module name="chapter09" target="11" />
+      <module name="chapter10" target="11" />
+      <module name="chapter11" target="11" />
+      <module name="chapter12" target="11" />
+      <module name="chapter13" target="11" />
+      <module name="hibernate-6-parent" target="11" />
+      <module name="spring" target="11" />
+      <module name="springboot" target="11" />
+      <module name="util" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot" options="-parameters" />
+    </option>
+  </component>
+</project>
